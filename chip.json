@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "author": "Vexxi",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "my-element",
+      "id": "custom1",
+      "top": 50,
+      "left": 100,
+      "attrs": {}
+    }
+  ],
+  "connections": [],
+  "pins": [
+    { "name": "pin-VCC", "type": "power" },
+    { "name": "pin-GND", "type": "ground" },
+    { "name": "pin-RPWM", "type": "signal" },
+    { "name": "pin-LPWM", "type": "signal" },
+    { "name": "pin-R_EN", "type": "signal" },
+    { "name": "pin-L_EN", "type": "signal" },
+    { "name": "pin-R_IS", "type": "signal" },
+    { "name": "pin-L_IS", "type": "signal" }
+  ]
+}
